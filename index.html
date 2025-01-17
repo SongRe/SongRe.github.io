@@ -6,34 +6,70 @@
     <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/316b5d8ce7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Kevin Song</h1>
+        <!-- <h1>Kevin Song</h1> -->
         <img src="pfp.JPG" class="profile-pic" />
         <p>Software Engineer | Class of 2025</p>
-        <nav>
+        <!-- <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
     
     <section id="about" class="flex col center">
-        <h2>About Me</h2>
-        <p>Hi! I'm a software engineer passionate about building scalable and efficient applications.</p>
+        <h2>Hey! I'm Kevin</h2>
+        <div style="max-width: 55%; gap: 5%"">
+            <p>I'm a 4th year Software Engineering Student at the University of Waterloo, with an interest in full-stack, mobile, and game development.</p>
+            <p>I'm currently seeking New Grad 2025 Software / Game Developer roles.</p>
+            <p>Some of my notable work includes:</p>
+            <ul>
+                <li><p>building efficient pdf-generating apis and mobile interfaces at a Stealth Startup</p></li>
+                <li><p>developing an XML parsing algorithm for pharmaceutical data at <a href="https://www.veeva.com/" target="_blank">Veeva Systems</a></p></li>
+                <li><p>designing and creating an adaptive workout scheduling feature at <a href="https://baronbiosys.com/" target="_blank">Baron Biosystems</a></p></li>
+                <li><p>graphQL performance improvements and mobile app features at <a href="https://baronbiosys.com/" target="_blank">Prodigy Education</a></p></li>
+                <li><p>scalable report generation and API optimizations at <a href="https://www.bluerover.ai/" target="_blank">blueRover</a></p></li>
+                <li><p>custom <a href="https://github.com/SongRe/llvm-project" target="_blank">language server</a> for uC++ at the University of Waterloo using a modified version of Clang</p></li>
+            </ul>
+        </div>
+        
+            
     </section>
-    
+
+    <section id="contact" class="flex col center">
+        <!-- <h2>Contact</h2> -->
+        <div class="flex col spacing-1">
+            <div class="resume" style="border-radius: 15px">
+                <a href="./Kevin_Song___SWE.pdf" target="_blank" style="color: white; text-decoration: none;">RESUME</a>
+            </div>
+            
+            <div class="flex row spacing-1">
+                <a href="mailto:songks712@gmail.com"><i class="fa-solid fa-envelope fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/kevin-song-aa493418a/" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+                <a href="https://github.com/SongRe" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
+            </div>
+
+        </div>
+        
+    </section>
+<!--     
     <section id="projects" class="flex col center">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Name</h3>
-            <p>Description of the project.</p>
-            <a href="#">View Project</a>
+        <div class="row flex spacing-1">
+            <a href="#" style="text-decoration: none;">
+                <div class="project">
+                    <h3>uC++ Language Server</h3>
+                    <p style="max-width: 15rem;">A modified version of the Clang compiler that supports uC++ unique syntax </p>
+                </div>
+            </a>
         </div>
+        
     </section>
     
     <section id="skills" class="flex col center">
@@ -47,16 +83,9 @@
             <li>Java</li>
             <li>Python</li>
         </ul>
-    </section>
+    </section> -->
     
-    <section id="contact" class="flex col center">
-        <h2>Contact</h2>
-        <div class="flex col spacing-1">
-            <a href="mailto:songks712@gmail.com">Email</a>
-            <a href="https://www.linkedin.com/in/kevin-song-aa493418a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/SongRe" target="_blank"><i class="fa-brands fa-github"></i></a>
-        </div>
-        
-    </section>
+   
+  
 </body>
 </html>

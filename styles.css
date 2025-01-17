@@ -11,6 +11,15 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav ul {
@@ -78,6 +87,16 @@ footer {
     gap: 5px;
 }
 
+.spacing-2 {
+    gap: 10px;
+}
+
 .center {
     align-items: center;
+}
+
+.resume {
+    background-color:#333;
+    color: white;
+    padding: 10px 20px;
 }
